@@ -1,0 +1,6 @@
+// установка без dev
+composer install --no-dev
+
+composer require --dev barryvdh/laravel-ide-helper
+composer require predis/predis
+composer require --dev barryvdh/laravel-debugbar
