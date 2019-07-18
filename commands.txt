@@ -4,3 +4,13 @@ composer install --no-dev
 composer require --dev barryvdh/laravel-ide-helper
 composer require predis/predis
 composer require --dev barryvdh/laravel-debugbar
+
+php artisan make:auth
+php artisan migrate
+
+
+// User
+remi9988@mail.ru
+12345678
+
+php artisan make:controller Cabinet/HomeController
